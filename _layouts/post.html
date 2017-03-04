@@ -1,0 +1,17 @@
+---
+layout: blog
+---
+<p class="back-to-posts">&laquo; <a href="{{site.baseurl}}/index.html">All posts</a></p>
+
+<div class="post">
+
+    <a class="post-title-link" href="{{ page.url }}"><h1 class="post-title">{{ page.title }}</h1></a>
+
+    <article class="body">
+        {{ page.content |  markdownify | indent_space: 4}}
+    </article>
+
+    <p class="timestamp"><a href="#">Posted {{ page.date | date: "%Y-%m-%d" }}</a></p>
+
+</div>
+

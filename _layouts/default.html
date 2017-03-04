@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+    
+    <main id="main-content">
+        <div class="content">
+            {{ content | indent_space: 4}}
+        </div>
+    </main>
+
+
+    {% include back_to_top.html %}
+    {% include footer.html %}
+
+  </body>
+
+</html>

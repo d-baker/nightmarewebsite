@@ -1,0 +1,60 @@
+---
+layout: default
+title: Web developer's checklist
+permalink: /checklist/
+---
+
+<h1>Web developer's checklist</h1>
+
+<section class="description">
+	<p>WORK IN PROGRESS.</p>
+
+	<p>An ongoing list of essential tasks and best practises for web development.</p>
+	<p>I plan to add to this over time, with the eventual aim of going into some detail about the arguments for and against certain approaches.</p>
+</section>
+
+<nav id="category-nav">
+	<p>
+	Subsections:
+	{% for checklist in site.data.checklists %}
+		<a href="${{ checklist[0] }}">{{ checklist[0] }}</a>
+	{% endfor %}
+	</p>
+</nav>
+
+{% for checklist in site.data.checklists %}
+	<section class="checklist">
+		<h2 id="{{ checklist[0] }}">{{ checklist[0] }}</h2>
+		<ul>
+
+    		{% for item in checklist[1] %}
+    			<li>{{ item.descrip }}
+
+    			{% if item.aside %}
+	    			<aside class="extra">
+
+	    				<h3 class="aside-heading">{{item.aside.heading}}</h3>
+
+	    				<div class="aside-content">
+
+		    				{% if item.aside.notes.size > 1 %}
+		    				<ul>
+		    					{% for note in item.aside.notes %}
+		    						<li>{{note}}</li>
+		    					{% endfor %}
+		    				</ul>
+		    				{% else %}
+		    					{{ item.aside.notes[0] }}
+		    				{% endif %}
+
+	    				</div>
+
+	    			</aside>
+	    		{% endif %}
+
+    			</li>
+    		{% endfor %}
+
+    	</ul>
+    </section>
+{% endfor %}

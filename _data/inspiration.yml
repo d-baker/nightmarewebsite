@@ -1,0 +1,36 @@
+web design:
+  - title: Bhav Mistry
+    url: http://bhavmistry.net/
+
+web art:
+  - title: Canvas Cycle
+    description: stunning animated artworks created with 8-bit color cycling and HTML5, complete with sound
+    url: http://www.effectgames.com/demos/canvascycle/
+
+  - title: Bubbles
+    url: http://boodoo.biz/%C2%B0
+
+  - title: inspirograph
+    description: an online spirograph
+    url: http://nathanfriend.io/inspirograph/
+
+  - title: Borges' Library of Babel
+    description: an online implementation of Jorge Luis Borges' Library of Babel concept
+    url: https://libraryofbabel.info/
+
+  - title: Species in Pieces
+    description: a beautiful CSS-powered exhibition of endangered species
+    url: http://species-in-pieces.com/#
+
+  - title: mirror lake
+    description: magical procedural landscapes
+    url: https://katierose.itch.io/mirrorlake
+
+  - title: Bot poetry
+    description: a report on Twitter's resident creative automatons
+    url: http://0x0a.li/en/bot-poetry-at-the-sfpc/
+
+typography:
+  - title: Ek Mukta
+    description: free, open-source sans-serif font
+    url: https://github.com/girish-dalvi/Ek-Mukta/releases

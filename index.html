@@ -1,0 +1,24 @@
+---
+layout: blog
+title: Blog
+---
+
+{% include archives.html %}
+
+<div class="main">
+	<ul class="post-list">
+
+		{% for post in paginator.posts %}
+
+	        <li class="post">
+	            {% include post_template.html %}
+	        </li>
+
+	    {% endfor %}
+
+	</ul>
+
+	{% include pagination.html %}
+</div>
+
+<div class="clearfix"></div>

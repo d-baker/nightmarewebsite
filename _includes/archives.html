@@ -1,0 +1,15 @@
+<div class="sidebar">
+	<button class="archives-toggle">
+		<h2>Archive</h2>
+	</button>
+
+	<div class="inner">
+		<ul>
+			{% for post in site.posts %}
+				<li><a href="{{post.url}}">{{ post.title }}</a></li>
+			{% endfor %}
+		</ul>
+	</div>
+</div>
+
+<script src="{{ '/assets/js/archives-toggle.js' | prepend: site.basurl }}"></script>

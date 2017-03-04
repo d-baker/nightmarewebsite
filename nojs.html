@@ -1,0 +1,23 @@
+---
+layout: default
+title: no js
+---
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        $("body").hide();
+        $("<p>Please disable javascript to view this page</p>").appendTo("html");
+    });
+</script>
+
+<div class="jspage">
+<h1>Hello, I'm a web page.</h1>
+<h2>You are only seeing me because a) you are using a very, very, very old browser or b) you are using a script blocker.</h2>
+<p>Have you ever navigated to a website only to find it unusable because you forgot to enable Javascript? If, like me, you use NoScript (or a similar plugin) because you care about performance and security and being tracked by creepy bots, this probably happens to you on a daily basis. If, unlike me, you enjoy the web in all its Javascript-y glory...</p>
+<p>Imagine if 80% of the websites you visited weren't fully functional unless you <em>disabled</em> Javascript. Layout garbled. Dropdown menus unhidden. Carousels a mess of overlapping images and text. Oh, and the worse thing: checkout processes broken, often fatally.</p>
+<p>Or, if you're really unlucky, just a message saying "please disable Javascript to view this page".</p>
+
+<h1>Graceful degradation, also known more positively as "progressive enhancement"</h1>
+<h2>Use it.</h2>
+<p>And for the love of the web, <em>no more Javascript dropdown menus.</em></p>
+</div>

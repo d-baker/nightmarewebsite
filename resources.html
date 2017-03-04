@@ -1,0 +1,17 @@
+---
+layout: default
+title: Resources
+permalink: /resources/
+---
+
+<nav id="category-nav">
+    <p>Categories:
+        {% for category in site.data.resources %}
+            <a href="#{{category[0] | slugify}}">{{category[0]}}</a>
+        {% endfor %}
+    </p>
+</nav>
+
+{% for category in site.data.resources %}
+    {% include link_template.html %}
+{% endfor %}

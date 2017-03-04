@@ -1,0 +1,13 @@
+<h1 class="category-heading" id="{{category[0] | slugify}}">{{ category[0] }}</h1>
+<ul class="category-list">
+
+    {% for link in category[1] %}
+        <li class="category-item">
+            <a href="{{ link.url }}">{{ link.title }}</a>
+            {% if link.description %}
+                <p class="link-descrip">{{ link.description }}</p>
+            {% endif %}
+        </li>
+    {% endfor %}
+
+</ul>

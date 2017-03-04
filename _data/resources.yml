@@ -1,0 +1,202 @@
+general:
+  - title: Ruby on Rails setup instructions
+    description: wonderfully comprehensive and detailed guide to Rails installation
+    url: http://railsapps.github.io/installrubyonrails-ubuntu.html
+
+  - title: Snazzy Maps
+    description: downloadable styles for Google Maps
+    url: https://snazzymaps.com/
+
+  - title: Browserling
+    description: yet another cross-browser testing service
+    url: https://www.browserling.com/
+
+  - title: How to write a git commit message
+    description: tips for writing good commit messages
+    url: http://chris.beams.io/posts/git-commit/
+
+  - title: Can I use...
+    description: simple, useful compatibility charts for pretty much anything you can think of
+    url: http://caniuse.com/
+
+  - title: BrowserStack
+    description: extremely cool cross-browser testing services
+    url: http://www.browserstack.com/
+
+  - title: base16
+    description: a wonderful collection of code editor colorschemes and template for making your own
+    url: https://github.com/chriskempson/base16
+
+code:
+  - title: You might not need JavaScript
+    description: a sentiment I can fully get behind. Resources for achieving, without JS, common tasks that don't require scripting, but frequently use it anyway.
+    url: http://youmightnotneedjs.com/
+
+  - title: Progresive enhancement isn't dead, but it smells funny
+    description: on a completely opposite note to the previous link, this is a thoughtful discussion of when you MIGHT need JS. Worth reading.
+    url: https://nolanlawson.com/2016/10/13/progressive-enhancement-isnt-dead-but-it-smells-funny/
+
+  - title: Simple made easy
+    description: an hour-long talk on complexity in programming and how to avoid it (with a distinct emphasis on functional programming concepts)
+    url: https://www.infoq.com/presentations/Simple-Made-Easy
+
+  - title: Why I still use JavaScript function statements
+    description: an interesting comparison of new and old JS conventions, and when you should use each
+    url: https://medium.freecodecamp.com/constant-confusion-why-i-still-use-javascript-function-statements-984ece0b72fd#.6b5g1o7t7
+
+  - title: Testing, for people who hate testing
+    url: https://eev.ee/blog/2016/08/22/testing-for-people-who-hate-testing/
+  
+  - title: Catalog of Refactorings
+    description: an amazing resource for programmers looking for ways to simplify and clean up their code
+    url: http://refactoring.com/catalog/
+
+  - title: Jekyll page generator
+    description: useful Jekyll plugin for generating individual pages from the data in yaml files
+    url: https://github.com/avillafiorita/jekyll-datapage_gen
+
+  - title: Jekyll tag plugin
+    description: a plugin to automatically create pages for posts based on tags
+    url: http://charliepark.org/tags-in-jekyll/
+
+  - title: TheCodePlayer
+    description: a great resource for learning to do cool things in HTML/CSS/JS
+    url: http://thecodeplayer.com/
+
+  - title: Regex101
+    description: an excellent online regex editor and learning tool
+    url: https://regex101.com/
+
+html:
+  - title: HTML5 Please
+    description: another handy HTML5 compatibility reference
+    url: http://html5please.com/
+
+  - title: The truth about multiple H1 tags
+    description: ...in this day and age...
+    url: http://webdesign.tutsplus.com/articles/the-truth-about-multiple-h1-tags-in-the-html5-era--webdesign-16824
+
+  - title: Built-in browser support for responsive images
+    description: a great overview of the HTML5 picture element
+    url: http://www.html5rocks.com/en/tutorials/responsive/picture-element/
+
+  - title: "Navigation in lists: to be or not to be"
+    description: in HTML5, it turns out there's a better approach (which I've been using ever since reading this article)
+    url: http://css-tricks.com/navigation-in-lists-to-be-or-not-to-be/
+
+  - title: HTML5test
+    description: HTML5 browser compatibility information
+    url: http://html5test.com/
+
+css:
+  - title: Getting started with CSS sourcemaps
+    description: how to use sourcemaps to edit SASS in-browser
+    url: https://medium.com/@toolmantim/getting-started-with-css-sourcemaps-and-in-browser-sass-editing-b4daab987fb0#.lh28e86sg
+
+  - title: Ultimate CSS gradient generator
+    url: http://www.colorzilla.com/gradient-editor/
+
+  - title: Fixed positioning in mobile browsers
+    description: how to do it (and maybe you shouldn't)
+    url: http://bradfrost.com/blog/mobile/fixed-position/
+
+  - title: Dive into Flexbox
+    description: great tutorial for learning to use the new CSS3 layout mode
+    url: https://bocoup.com/weblog/dive-into-flexbox/
+
+  - title: When using !important is the right choice
+    description: an interesting discussion of when it's ok to use !important
+    url: http://css-tricks.com/when-using-important-is-the-right-choice/
+
+design:
+  - title: Valuable tips on design responsiveness
+    description: a short list of simple, useful guidelines for designing a responsive website
+    url: https://medium.com/@taniramaurer/valuable-tips-on-design-responsiveness-306a5fbb14e5#.r7mu06q46
+
+  - title: Web design in 4 minutes
+    description: An interactive guide to designing a web page, with a focus on the things that matter
+    url: http://jgthms.com/web-design-in-4-minutes/
+
+  - title: BLOKK
+    description: An awesome font for mockups and wireframing
+    url: http://www.blokkfont.com/
+
+  - title: Balsamiq
+    description: nice wireframing app
+    url: https://balsamiq.com/
+
+  - title: Flat UI colors
+    url: https://flatuicolors.com/
+
+  - title: Method of Action
+    description: a wonderful collection of games that teach design theory 
+    url: http://method.ac/
+
+  - title: harmonic16
+    description: a colorscheme generator for the base16 template (https://github.com/chriskempson/base16), also handy for any time you want a nice selection of colors
+    url: http://janniks.github.io/harmonic16/
+
+  - title: COLOURlovers
+    description: colorscheme- and pattern-sharing site, loads of inspiration
+    url: http://www.colourlovers.com/
+
+  - title: Designing the holy search box
+    description: lots and lots of search box inspiration
+    url: http://www.smashingmagazine.com/2008/12/04/designing-the-holy-search-box-examples-and-best-practices/
+
+  - title: 3 ways good design makes you happy
+    description: Don Norman on design and emotion
+    url: http://www.ted.com/talks/don_norman_on_design_and_emotion
+
+  - title: ColorHexa
+    description: a useful resource for developing color schemes
+    url: http://www.colorhexa.com/
+
+  - title: Life Below 600px
+    description: this site proves everything you thought you know about "the fold" wrong, which is great for those of us who like breaking the rules
+    url: http://iampaddy.com/lifebelow600/
+
+  - title: Where is the fold?
+    description: ...but just in case you do like rules, here's a site that'll help you conform to them.
+    url: http://www.foldtester.com/
+
+UX:
+  - title: Use high contrast for legibility
+    url: http://useyourloaf.com/blog/use-high-contrast-for-legibility/
+
+  - title: Color name & hue
+    description: lets you pick any color on the spectrum and find out its color name and hue
+    url: http://www.color-blindness.com/color-name-hue/
+
+  - title: Alt text guidelines
+    description: a fantastic resource for everything you need to know about using alt text properly
+    url: http://webaim.org/techniques/alttext/
+
+  - title: UXbooth
+    url: http://www.uxbooth.com/
+
+  - title: UX movement
+    url: http://uxmovement.com/
+
+  - title: contrast ratio calculator
+    url: http://leaverou.github.io/contrast-ratio/
+
+  - title: W3C accessibility evaluation resources
+    url: http://www.w3.org/WAI/eval/Overview.html
+
+  - title: WAVE web accessibility tool
+    description: a useful tool for checking the accessibility and semantics of any given web page
+    url: http://wave.webaim.org/
+
+php:
+  - title: Keeping navigation current with PHP
+    description: a guide to using PHP for elegant current-page CSS in navigation
+    url: http://alistapart.com/article/keepingcurrent
+
+  - title: PHP encoding/decoding functions
+    description: this site lets you run some text through all PHP's string encoding/decoding functions and see the result
+    url: http://www.splitbrain.org/encode.php
+
+  - title: Keeping web users safe by sanitizing input data
+    description: a great primer on input validation security
+    url: http://www.smashingmagazine.com/2011/01/11/keeping-web-users-safe-by-sanitizing-input-data/

@@ -1,0 +1,41 @@
+<a href="#main-content" class="skip-nav" tabindex=0>Skip to content</a>
+
+<header>
+    <a id="logo" href="{{ site.baseurl }}/index.html">nightmare.website</a>
+    <button id="menu-toggle" aria-label="Toggle navigation"></button>
+
+    <nav id="main-nav">
+
+        {% if page.url == "/" %}
+            <a class="current" href="{{ site.baseurl }}/index.html">Blog</a>
+        {% else %}
+            <a href="{{ site.baseurl }}/index.html">Blog</a>
+        {% endif %}
+
+        {% if page.url == "/checklist/" %}
+            <a class="current" href="{{ site.baseurl }}/checklist">Webdev Checklist</a>
+        {% else %}
+            <a href="{{ site.baseurl }}/checklist">Webdev checklist</a>
+        {% endif %}
+        
+        {% if page.url == "/resources/" %}
+            <a class="current" href="{{ site.baseurl }}/resources">resources</a>
+        {% else %}
+            <a href="{{ site.baseurl }}/resources">Resources</a>
+        {% endif %}
+
+        {% if page.url == "/inspiration/" %}
+            <a class="current" href="{{ site.baseurl }}/inspiration">Inspiration</a>
+        {% else %}
+            <a href="{{ site.baseurl }}/inspiration">Inspiration</a>
+        {% endif %}
+
+        {% if page.url == "/about/" %}
+            <a class="current" href="{{ site.baseurl }}/about">About</a>
+        {% else %}
+            <a href="{{ site.baseurl }}/about">About</a>
+        {% endif %}
+
+    </nav>
+
+</header>

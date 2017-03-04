@@ -1,0 +1,48 @@
+usability:
+  - descrip: Make interactive elements (buttons, links, form fields) large enough for clumsy fingers to target on a touchscreen.
+  - descrip: Put frequently-used interactive elements in ergonomically appropriate locations for smartphone users.
+    aside:
+      heading: examples
+      notes:
+        - menu toggle buttons should go on the top right of the screen
+        - back-to-top buttons should go at the bottom of the screen
+  - descrip: Include a back-to-top button.
+    aside:
+      heading: possible implementations
+      notes:
+        - for shorter pages, a button in the footer
+        - for very long pages, a fixed-position floating button that appears when the user begins to scroll
+
+responsivity:
+  - descrip: Write styles for the smallest device width first.
+  - descrip: Don't implement hover styling until you're writing the media queries for desktop devices.
+  - descrip: Use <code>srcset</code> for image optimisation.
+  - descrip: Add the following meta tag to ensure the site displays correctly on mobile devices
+    aside:
+      heading: code snippet
+      notes:
+        - <pre><code>&lt;meta name="viewport" content="width=device-width,initial-scale=1.0"&gt;</code></pre>
+
+accessibility:
+  - descrip: Ensure link text is sufficient to describe the link out of context.
+  - descrip: <a href='http://webaim.org/techniques/alttext/'>Follow these guidelines for image alt text.</a>
+  - descrip: Add <code>aria-expanded</code> attributes to menu toggle buttons and keep their value in sync with the state of the menu using javascript.
+  - descrip: Use <code>aria-label</code> to name interactive elements where the existing label or content does not sufficiently describe the element for a non-sighted user.
+  - descrip: Use a <a href='http://leaverou.github.io/contrast-ratio'/>contrast ratio checker</a>.
+  - descrip: If color plays a significant functional role in the website, check that the pallette is color-blindness friendly.
+  - descrip: Make use of the <a href='http://wave.webaim.org/'>WAVE web accessibility tool</a>.
+  - descrip: Test your site with a screenreader such as <a href='http://www.chromevox.com/'>ChromeVox</a>.
+  - descrip: Use the <a href='https://chrome.google.com/webstore/detail/accessibility-developer-t/fpkknkljclfencbdbgkenhalefipecmb'>Chrome accessibility dev tools extension</a> to audit your site.
+
+compatibility:
+  - descrip: Use Modernizr, with HTML5Shiv included.
+    aside:
+      heading: common use cases
+      notes:
+        - smart replacement of PNG icons with SVGs dependant on browser capability
+        - certain background styling properties
+  - descrip: Test using BrowserStack.
+
+deployment:
+  - descrip: W3C validation.
+  - descrip: Minify as much code as you can.

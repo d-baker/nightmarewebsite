@@ -1,0 +1,152 @@
+#backtotop {
+    position: fixed;
+    bottom: 0px;
+    height: 40px;
+    right: 0px;
+    margin: 0px 20px;
+    z-index: 2;
+    margin-bottom: 40px;
+
+    a {
+        font-size: 20px;
+        text-decoration: underline;
+
+        // svg icon from the awesome http://iconmelon.com/, thankyou
+        background-image: url("/assets/icons/up-arrow.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        padding: 30px;
+    }
+}
+
+.has-svgasimg #backtotop a {
+    background-image: url("/assets/icons/up-arrow.svg");
+}
+
+@media screen and (max-width: 600px) {
+    main {
+        margin-top: 10vw;
+    }
+
+    header {
+        a#logo {
+            font-size: 8vw;
+            display: inline-block;
+            margin-bottom: 0px;
+            vertical-align: middle;
+        }
+
+        #main-nav.closed {
+            display: none;
+        }
+
+        #main-nav.open {
+            display: block;
+            padding-bottom: 10vw;
+            margin-top: 10vw;
+            border-bottom: 1px solid $light;
+        }
+
+        nav#main-nav a {
+            display: block;
+            padding: 3vw 0vw;
+            margin: 7vw 0vw;
+
+            text-transform: lowercase;
+            font-variant: small-caps;
+            font-weight: bold;
+            text-align: left;
+            font-size: 7vw;
+
+            &.current, &.current:hover {
+                color: $lightest;
+                border-bottom: 2vw solid #666;
+                display: table;
+            }
+
+            &:hover {
+                border-bottom: none;
+                color: $light;
+            }
+        }
+
+        #menu-toggle {
+            display: inline-block;
+            float: right;
+        }
+
+    }
+
+    #category-nav {
+        font-size: 20px;
+
+        // TODO these importants are awful
+        a {
+            font-size: 20px!important;
+            padding: 0!important;
+            margin-top: 30px;
+            margin-left: 0px!important;
+            display: block;
+        }
+    }
+
+}
+
+
+@media screen and (max-width: 1000px) {
+    main, main.blog, footer {
+        max-width: 650px;
+        margin: auto;
+    }
+
+    main, main.blog {
+        margin: 80px auto;
+    }
+
+    footer {
+        margin: auto;
+    }
+
+    header {
+        #logo {
+            display: block;
+            margin-right: 0;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        #main-nav {
+            margin-top: 25px;
+            text-align: center;
+            display: block;
+        }
+    }
+
+
+    .sidebar {
+        float: none;
+        width: 100%;
+        max-width: 100%;
+        border-left: none;
+        padding: 0;
+        margin-bottom: 60px;
+
+            padding-bottom: 30px;
+            border-bottom: 1px dashed $light;
+        
+    }
+
+    .main {
+        float: none;
+        width: 100%;
+    }
+
+    .post {
+        max-width: 100%;
+    }
+
+}
+
+
+
+
+
