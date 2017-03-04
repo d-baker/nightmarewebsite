@@ -1,8 +1,5 @@
 $(document).ready(function() {
 
-	$(".sidebar .inner").hide();
-	$(".archives-toggle").attr("aria-expanded", false);
-	
 	$(".archives-toggle").click(function() {
 		$(".sidebar .inner").toggle();
 

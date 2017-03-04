@@ -371,9 +371,8 @@ a {
     .timestamp {
         font-size: 14px;
         color: $light;
-        text-align: right;
         text-transform: lowercase;
-        margin: 10px 0px;
+        margin-bottom: 30px;
 
         .readmore {
             color: $lightest;

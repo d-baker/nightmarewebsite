@@ -146,6 +146,19 @@
 
 }
 
+.sidebar .inner {
+    display: none;
+}
+
+@media (min-width: 1000px) {
+    .single-post {
+        width: 55%;
+    }
+    .sidebar .inner {
+        display: block;
+    }
+}
+
 
 
 
