@@ -6,9 +6,9 @@ layout: blog
 
 <div class="post single-post">
 	
-	<p class="timestamp"><a href="#">Posted {{ page.date | date: "%Y-%m-%d" }}</a></p>
-
     <a class="post-title-link" href="{{ page.url }}"><h1 class="post-title">{{ page.title }}</h1></a>
+    
+	<p class="timestamp">Posted {{ page.date | date: "%Y-%m-%d" }}</p>
 
     <article class="body">
         {{ page.content |  markdownify | indent_space: 4}}
