@@ -17,7 +17,7 @@ I had never done this before, and the experience (which was, and is, ongoing) pr
 
 I was originally going to write about the dual-booting process from beginning to end, but it became way too convoluted and messy. So instead, I've chosen to address the major issues I experienced that couldn't be answered by a simple google search, and present them in a format that will hopefully help others who may encounter the same problems.
 
-##The hardware
+## The hardware
 A HP Pavilion gaming notebook:
 
 - 2TB HD
@@ -28,10 +28,10 @@ A HP Pavilion gaming notebook:
 - Realtek RTL8723BE wireless network adapter
 - Windows 10 preinstalled
 
-##The goal
+## The goal
 Install Kubuntu 15.10 [the latest version at the time] on one half of my hard drive and keep Windows 10 on the other half, and be able to choose which OS to boot into on startup. Simple, right?
 
-##The nightmares
+## The nightmares
 
 ### Reluctant Imation drive
 The first step in dual-booting an OS is to create a bootable installation medium of some kind, most commonly a USB drive. Having downloaded the Kubuntu 15.10 ISO, I set about following [this tutorial](http://www.everydaylinuxuser.com/2015/11/how-to-create-ubuntu-1510-usb-drive.html) to create a bootable USB from within Windows and start up from it.

@@ -48,9 +48,7 @@ Create a directory which will become your git *repository*. A repository (often 
 
 In the terminal, `cd` into the directory you just created:
 
-~~~
-cd <your directory>
-~~~
+    cd <your directory>
 
 Then type `git init`. This will perform the necessary setup to allow git to manage the files in the directory. 
 
@@ -61,10 +59,8 @@ Keep in mind that if you publish your project to GitHub at some point, the name 
 
 To set the name and email that will be used by git to identify you, run the following:
 
-~~~
-git config --global user.name "<your name>"
-git config --global user.email <your email>
-~~~
+    git config --global user.name "<your name>"
+    git config --global user.email <your email>
 
 <aside>
 <p>The <code>--global</code> flag makes these details the default. If you want to set different details for a specific project, you can change the name and email attached to that project by running the commands again without the <code>--global</code> flag while inside the project directory.</p>
@@ -125,9 +121,7 @@ What if you had wanted to commit just the original version of the file, not the 
 
 You can also use wildcards to stage files with particular file extensions, which can be handy. For example, maybe you're working on a website and only want to commit html files:
 
-~~~
-git add *.html
-~~~
+    git add *.html
 
 The asterisk means "any character" so you're essentially telling git to stage any file that ends with .html.
 
@@ -174,9 +168,7 @@ To do this, copy the the commit identifier for the first commit. The commit iden
 
 Now run:
 
-~~~
-git reset --hard <commit identifier>
-~~~
+    git reset --hard <commit identifier>
 
 This PERMANENTLY deletes all the changes made since the commit specified by `<commit identifier>`, reverting your project to the state it was in at the time the specified commit was made.
 
