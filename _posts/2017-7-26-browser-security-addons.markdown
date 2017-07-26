@@ -10,6 +10,7 @@ tags:
 I generally don't like to have too many browser add-ons enabled at a time, because they can get slow. However, add-ons for improving web privacy and security should be essential.
 
 There are many aspects of web security that can be addressed with add-ons: malware, intrusive ads, trackers, untrustworthy websites. In this blog post I'm going to discuss my favorite tools for dealing with these issues.
+<!--break-->
 
 Note that while I use and recommend Firefox (Mozilla advocates for privacy and does great work on web technologies), all the add-ons mentioned here are available for other browsers as well.
 
