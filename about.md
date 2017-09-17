@@ -6,9 +6,9 @@ permalink: /about/
 
 What's this site all about?
 ===========================
-I'm Dorothea Baker, a computer science student and web designer.
+I'm Dorothea Baker, a web developer/designer and Linux enthusiast.
 
-I made this site while undertaking my web design minor, mainly in order to collate and organise the things I'd learnt that hadn't been easy to discover from a simple google search.
+This website started as a place to collate resources and things I'd learnt while undertaking my web design minor. It has subsequently expanded to include a broad range of technology-related material.
 
 My hope is that by sharing my discoveries and experiences with technology, I will be able to help others like me.
 
