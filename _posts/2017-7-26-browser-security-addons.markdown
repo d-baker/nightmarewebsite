@@ -71,8 +71,19 @@ If you find that these settings are causing certain sites to misbehave, you can 
 
 I may write an in-depth blog post on how to use the basic features of uMatrix in the future, because it's really worth learning about. In the meantime, you can refer to [this documentation](https://github.com/gorhill/uMatrix/wiki).
 
+
+[Firefox multi-account containers](https://blog.mozilla.org/firefox/introducing-firefox-multi-account-containers/)
+---------------------
+_Supported by: Firefox_
+
+Unfortunately this add-on is, at present, only a feature of Firefox. But it's such an awesome feature! While there's a little bit of a learning curve, if you're security conscious, need to manage multiple accounts on social media sites, and/or love to keep things very organised (i.e. putting things in boxes), multi-account containers are a dream come true.
+
+From a security perspective, this add-on allows you to sandbox cookies for different types of browsing activity, like banking and watching Youtube videos. This theoretically makes it harder for sites to "spy" on each other and could prevent some web-based attacks like cross-site request forgery and cookie theft.
+
+From a usability perspective, the most obvious advantage this add-on provides is enabling you to be logged in to, say, several different Twitter accounts in the same browser. (For the paranoid: it also lets you work around Google's native multiple account management, since you can separately log in to each of your accounts without them being linked in Google's account management page.)
+
 ------------------------------------------------------------------------------
 
 Here's an overview of how all these add-ons fit together during my daily internet usage.
 
-Searching the web with DuckDuckGo, I'm free from that disturbing, Googley sensation of being followed. Browsing the search results, I can make an informed decision about which ones to click thanks to the WOT rating, and if a website turns out to be bad after all, uMatrix will block any trackers or malicious scripts. Meanwhile, this whole time I've seen only peaceful whitespace in place of ads (this is Adblock Plus's doing, although depending on the website and the configuration, uMatrix can have the same effect).
+Searching the web with DuckDuckGo, I'm free from that disturbing, Googley sensation of being followed. Browsing the search results, I can make an informed decision about which ones to click thanks to the WOT rating, and if a website turns out to be bad after all, uMatrix will block any trackers or malicious scripts. It's often necessary to partially or completely disable uMatrix in order for some sites to work, but Firefox's multi-account containers provide peace of mind by separating the data for different areas of my browsing activity. Meanwhile, this whole time I've seen only peaceful whitespace in place of ads (this is Adblock Plus's doing, although depending on the website and the configuration, uMatrix can have the same effect).
