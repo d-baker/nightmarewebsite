@@ -10,12 +10,35 @@ As a vim nerd, one of my favorite things to do is find out ways to make vim more
 Without further ado, here are some plugins that make vim even more fun than an IDE.
 
 
+## [vim-rsi](https://github.com/tpope/vim-rsi)
+adds some convenient, familiar keybindings to vim, like `ctrl-a` and `ctrl-e` to skip to the beginning and end of a line, respectively.
+
+
+## [vim-commentary](https://github.com/tpope/vim-commentary)
+provides a handy keybindings for commenting out code. For example, select the code you want to comment out in visual mode, then type `gc`.
+
+
 ## [neocomplcache](https://github.com/Shougo/neocomplcache.vim)
-is a great autocompletion plugin for vim. It has filepath autocompletion, which is one of my favorite features.
+is a great autocompletion plugin for vim. It has filepath autocompletion, which is one of my favorite features. __Note: this plugin has been superseded by [neocomplete](https://github.com/Shougo/neocomplete.vim), which is essentially the same but requires vim to be compiled with Lua support. [This section](https://github.com/Shougo/neocomplete.vim#requirements) of the readme explains how to check if your vim satisfies this dependancy.__
 
 
 ## [vim-multiple-cursors](https://github.com/terryma/vim-multiple-cursors)
 provides multiline text editing similar to that in Sublime Text. I don't know how I ever lived without this plugin. Changing variable names is so much easier!
+
+Note that if you are using `vim-multiple-cursors` alongside `neocomplete`, you need to add the following to your `.vimrc` to prevent conflict:
+
+    " Called once right before you start selecting multiple cursors
+    function! Multiple_cursors_before()
+      if exists(':NeoCompleteLock')==2
+        exe 'NeoCompleteLock'
+      endif
+    endfunction
+    " Called once only when the multiple selection is canceled (default <Esc>)
+    function! Multiple_cursors_after()
+      if exists(':NeoCompleteUnlock')==2
+        exe 'NeoCompleteUnlock'
+      endif
+    endfunction
 
 
 ## [gitgutter](https://github.com/airblade/vim-gitgutter)
@@ -28,6 +51,7 @@ GitGutter can color-code the actual lines of text to show changes as well as usi
 	setlocal updatetime=250
  	" mapping for color-coded lines
 	nnoremap <Leader>l :GitGutterLineHighlightsEnable<CR>
+
 
 ## [vim-script-runner](https://github.com/ironcamel/vim-script-runner)
 runs code written in various scripting languages at the tap of a key, and shows the output in a split window. I have wanted something like this for a long time, as one of the main reasons I will sometimes opt to use Sublime Text instead of vim is the ease of running code during testing.
@@ -46,6 +70,12 @@ Not much config needed for basic use:
 	let g:airline_theme = 'luna' " my choice of theme
 
 
+## [nerdtree](https://github.com/scrooloose/nerdtree)
+provides a nicer alternative to vim's `explore` function. I've only been using it for a few hours and I'm already in love with it! I've added the following mapping to open the directory tree:
+
+    map <Leader>d NERDtree<CR>
+
+
 ## [syntastic](https://github.com/scrooloose/syntastic)
 automatically checks syntax every time you save a file (or only on demand, if configured to do so) and integrates with vim-airline so you get syntax errors pointed out to you in the status line.
 
@@ -62,6 +92,3 @@ I opted for a more minimal config - the following only displays errors, not warn
 	let g:syntastic_check_on_wq = 0
 
 _Update: After using syntastic for a short time I ended up disabling it because it slowed down vim so much, eventually crashing it completely._
-
-## [nerdtree](https://github.com/scrooloose/nerdtree)
-provides a nicer alternative to vim's `explore` function. I've only been using it for a few hours and I'm already in love with it!
