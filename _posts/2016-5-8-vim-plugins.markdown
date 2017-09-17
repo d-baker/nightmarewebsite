@@ -15,7 +15,7 @@ adds some convenient, familiar keybindings to vim, like `ctrl-a` and `ctrl-e` to
 
 
 ## [vim-commentary](https://github.com/tpope/vim-commentary)
-provides a handy keybindings for commenting out code. For example, select the code you want to comment out in visual mode, then type `gc`.
+provides handy keybindings for commenting out code. For example, select the code you want to comment out in visual mode, then type `gc`.
 
 
 ## [neocomplcache](https://github.com/Shougo/neocomplcache.vim)
