@@ -1,4 +1,19 @@
 general:
+  - title: Coding interview university
+    description: a checklist to help programmers prepare for technical interviews/learn essential concepts
+    url: https://github.com/jwasham/coding-interview-university
+
+  - title: Sideways Dictionary
+    description: beautifully designed glossary of tech terms using analogies
+    url: https://sidewaysdictionary.com
+
+  - title: Little stuff about markdown I always forget and have to Google
+    description: a handy Markdown syntax resource
+    url: https://css-tricks.com/little-stuff-markdown-always-forget-google/
+
+  - title: Browser marketshare statistics
+    url: https://clicky.com/marketshare/global/web-browsers/
+
   - title: Ruby on Rails setup instructions
     description: wonderfully comprehensive and detailed guide to Rails installation
     url: http://railsapps.github.io/installrubyonrails-ubuntu.html
@@ -28,6 +43,28 @@ general:
     url: https://github.com/chriskempson/base16
 
 code:
+  - title: An introduction to Javascript promises
+    url: https://developers.google.com/web/fundamentals/getting-started/primers/promises
+
+  - title: Math as Code
+    description: a project to help programmers learn mathematical notation
+    url: https://github.com/Jam3/math-as-code/blob/master/README.md
+
+  - title: Understand JavaScript closures with ease
+    url: http://javascriptissexy.com/understand-javascript-closures-with-ease/
+
+  - title: Unit testing best practises
+    description: great article on how to write 'testable' code
+    url: https://www.toptal.com/qa/how-to-write-testable-code-and-why-it-matters
+
+  - title: Request Quest
+    description: a fun and often surprising game to test your knowledge of browser inconsistency
+    url: http://jakearchibald.github.io/request-quest/
+
+  - title: xchars.js
+    description: a presentation that sets out to answer the question, 'what is the smallest subset of characters that can run any possible JavaScript code?'
+    url: http://slides.com/sylvainpv/xchars-js
+
   - title: You might not need JavaScript
     description: a sentiment I can fully get behind. Resources for achieving, without JS, common tasks that don't require scripting, but frequently use it anyway.
     url: http://youmightnotneedjs.com/
@@ -68,6 +105,10 @@ code:
     url: https://regex101.com/
 
 html:
+  - title: HTML reference
+    description: a guide to all the HTML elements and attributes
+    url: http://htmlreference.io/
+
   - title: HTML5 Please
     description: another handy HTML5 compatibility reference
     url: http://html5please.com/
@@ -89,6 +130,22 @@ html:
     url: http://html5test.com/
 
 css:
+  - title: CSS reference
+    description: a comprehensive guide to CSS properties
+    url: http://cssreference.io/
+
+  - title: On container queries
+    description: a proposition for a new approach to responsive css
+    url: https://ethanmarcotte.com/wrote/on-container-queries/
+
+  - title: Ghost CSS
+    description: someone has created a handy stylesheet which you can apply using a bookmarklet, to diagnose elusive CSS bugs
+    url: http://wernull.com/2013/04/debug-ghost-css-elements-causing-unwanted-scrolling/
+
+  - title: How to use Sass with Wordpress
+    description: a detailed, step by step guide
+    url: https://www.elegantthemes.com/blog/tips-tricks/how-to-use-sass-with-wordpress-a-step-by-step-guide
+
   - title: Getting started with CSS sourcemaps
     description: how to use sourcemaps to edit SASS in-browser
     url: https://medium.com/@toolmantim/getting-started-with-css-sourcemaps-and-in-browser-sass-editing-b4daab987fb0#.lh28e86sg
@@ -109,6 +166,14 @@ css:
     url: http://css-tricks.com/when-using-important-is-the-right-choice/
 
 design:
+  - title: Srcset and sizes
+    description: a fun and informative introduction to using srcset
+    url: https://ericportis.com/posts/2014/srcset-sizes/
+
+  - title: Easy Google Fonts plugin for wordpress
+    description: plugin that gives you a full library of Google fonts to choose from for your theme
+    url: https://wordpress.org/plugins/easy-google-fonts/
+
   - title: Valuable tips on design responsiveness
     description: a short list of simple, useful guidelines for designing a responsive website
     url: https://medium.com/@taniramaurer/valuable-tips-on-design-responsiveness-306a5fbb14e5#.r7mu06q46
@@ -161,6 +226,30 @@ design:
     url: http://www.foldtester.com/
 
 UX:
+  - title: Progressive enhancement is still important
+    description: more excellent ranting about progressive enhancement
+    url: https://jakearchibald.com/2013/progressive-enhancement-still-important/
+
+  - title: Progressive enhancement is faster
+    description: another great argument
+    url: https://jakearchibald.com/2013/progressive-enhancement-is-faster/
+
+  - title: Everyone has Javascript, right?
+    description: a beautiful graphic promoting progressive enhancement
+    url: https://kryogenix.org/code/browser/everyonehasjs.html
+
+  - title: Better accessibility with Javascript
+    description: a collection of code examples to improve accessibility using Javascript
+    url: http://melmo.github.io/accessibility/berlin.js/code/dist/tabindex.html 
+
+  - title: The distribution of users' computer skills
+    description: enlightening research on how computer-literate users really are
+    url: https://www.nngroup.com/articles/computer-skill-levels/
+
+  - title: Insights from going mobile only
+    description: great usability tips for mobile web design
+    url: https://www.invisionapp.com/blog/mobile-first-mobile-only/
+
   - title: Use high contrast for legibility
     url: http://useyourloaf.com/blog/use-high-contrast-for-legibility/
 

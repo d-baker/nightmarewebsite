@@ -2,7 +2,18 @@ web design:
   - title: Bhav Mistry
     url: http://bhavmistry.net/
 
+  - title: Should We
+    url: https://www.shouldwe.co/
+
 web art:
+  - title: What every browser knows about you
+    description: find out how much information you're leaking just by being online
+    url: http://webkay.robinlinus.com/
+
+  - title: Death to Bullshit
+    description: a clever, hilarious and downright horrifying lesson in UX
+    url: http://blog.deathtobullshit.com/
+
   - title: Canvas Cycle
     description: stunning animated artworks created with 8-bit color cycling and HTML5, complete with sound
     url: http://www.effectgames.com/demos/canvascycle/
