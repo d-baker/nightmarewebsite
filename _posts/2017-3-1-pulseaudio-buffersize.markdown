@@ -14,11 +14,12 @@ During the process I encountered a second audio glitch, which I didn't address a
 
 ## TL;DR
 
-### System specifications
+<!--### System specifications
 I'm including this so you can compare it to your own specs if you're having the same problem, since it may well be hardware dependent.
 
 OS: KDE Neon User Edition (Ubuntu derivative)
 TODO hardware spec
+-->
 
 ### Problem
 Certain audio formats (AIFF, WAV, possibly others) when played through certain applications (VLC, Dolphin's preview panel, possibly others) stutter or sound buzzy/distorted during playback.
